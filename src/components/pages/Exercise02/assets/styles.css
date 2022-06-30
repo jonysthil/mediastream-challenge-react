@@ -1,7 +1,13 @@
 .movie-library {
-  background-color: var(--black);
+  background: rgb(27,27,27);
+  background: linear-gradient(180deg, rgba(27,27,27,0) 0%, rgba(27,27,27,1) 1%);
   color: var(--white);
   min-height: 100vh;
+  position: relative;
+  margin-top: -120px;
+}
+
+.movie-container {
   padding: 2em;
 }
 
@@ -54,4 +60,25 @@
 
 .movie-library__card li {
   line-height: 120%;
+}
+
+.header-movie-library {
+  background-image: url('mountains.jpeg');
+  background-position: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+
+.card-body {
+  color: #fff;
+  background: rgb(27,27,27);
+  background: linear-gradient(180deg, rgba(27,27,27,0) 0%, rgba(25,135,84,1) 15%);
+  height: 120px;
+}
+
+.card-img {
+  height: 370px;
 }
